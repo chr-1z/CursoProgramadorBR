@@ -1,0 +1,40 @@
+ul {
+  padding-bottom: 15%;
+
+}
+
+/* Container holding the image and the text */
+.container {
+    position: ;
+    text-align: left;
+    color: black;
+    font-size: 35px;
+    
+    
+}
+  
+  /* Top left text */
+.name {
+    padding: 10px;
+    position: absolute;
+    top: 50px;
+    left: 87px;
+}
+  
+
+html {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  border: 12px;
+  line-height: 1.5cm;
+
+}
+
+.links:visited {
+  color: black;
+}
