@@ -11,6 +11,7 @@ body {
 .container {
     max-width: 1000px;
     margin: auto;
+    
 }
 
 header {
@@ -18,6 +19,7 @@ header {
     text-align: center;
     color: white;
     padding: 10px;
+    
 }
 
 .title {
@@ -28,7 +30,7 @@ section {
     padding: 20px;
     background-image: url('../images/people.jpg');
     background-size: cover;
-    overflow: hidden;
+    overflow: hidden;  
 }
 
 .formContainer {
@@ -36,6 +38,7 @@ section {
     background-color: #FFFFFFBB;
     padding: 20px;
     float: right;
+    
 }
 
 h2 {
@@ -73,6 +76,7 @@ select {
 
 .picture {
     width: 160px;
+    margin-left: 40px;
 }
 
 footer {
@@ -97,4 +101,24 @@ footer {
     font-size: 24px;
 }
 
-@media
+@media only screen and (max-width: 800px) {
+    .formContainer {
+        float: none;
+        margin: auto;
+    }
+
+    .description {
+        text-align: center;
+        margin: auto;
+    }
+
+    .picture {
+        display: block;
+        margin: auto;
+    }
+
+    .description, h3 {
+        margin-top: 20px;
+    }
+}
+
