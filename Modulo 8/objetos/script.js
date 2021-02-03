@@ -112,3 +112,15 @@ console.log(b);
 // for  (var aluno of turma ) {
 //     console.log(aluno.nome + " - " + aluno.media())
 // }
+
+
+
+function obj(n, s) {
+    
+    this.nome = n;
+    this.sobrenome = s;
+}
+
+var a = new obj("Igor", "Oliveira")
+
+console.log(a.nome);
