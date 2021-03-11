@@ -1,3 +1,9 @@
-console.log(document);
+let p1 = document.getElementById("p1");
 
-document.body.innerHTML = "<h1> Esse título foi inserido no JS" + document.body.innerHTML;
+let paragrafos = document.getElementsByClassName("paragrafo")
+
+console.log(p1);
+
+console.log(paragrafos);
+
+for (let p of paragrafos) {console.log(p)}
