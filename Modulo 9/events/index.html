@@ -21,8 +21,8 @@
             let h1 = document.getElementsByTagName("h1")[0];
 
             console.log(h1);
-
             h1.innerText = 'Click me'
+            h1.style.display = "block"
         }
 
         function hideH1() {
@@ -35,11 +35,16 @@
     <style>
 
         div {
-            padding: 20px;
-            font-size: 2rem;
-            display: inline-block;
-            background-color: cornflowerblue;
-            color: aliceblue;
+            font-size: 2rem; 
+            display: block; 
+            background-color: cornflowerblue; 
+            color: aliceblue; 
+            height: 5px; 
+            margin: 10px; 
+            padding-bottom: 30px; 
+            width: 120px; 
+            padding-left: 4px; 
+            border: thick double red;
         }
 
     </style>
