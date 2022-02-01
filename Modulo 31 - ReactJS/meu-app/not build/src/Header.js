@@ -7,9 +7,9 @@ function Header(props) {
         <header className="header">
             <h1 className="logo">{props.name}</h1>
             <ul className="menu">
-                <li>{props.links[0]}</li>
-                <li>{props.links[1]}</li>
-                <li>{props.links[2]}</li>
+                <li className="about">{props.links[0]}</li>
+                <li className="buy">{props.links[1]}</li>
+                <li className="contact">{props.links[2]}</li>
             </ul>
         </header>
     );

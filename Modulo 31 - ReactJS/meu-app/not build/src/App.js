@@ -3,7 +3,7 @@ import Header from './Header';
 
 function App() {
   return (
-    <Header name="Progbr" links={["Sobre", "Comprar", "Contato"]} className="aaa"></Header>
+    <Header name="chr1z's page" links={["Sobre", "Comprar", "Contato"]}></Header>
   );
 }
 
