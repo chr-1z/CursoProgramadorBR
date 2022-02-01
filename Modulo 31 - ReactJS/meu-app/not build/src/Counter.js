@@ -26,9 +26,9 @@ class Counter extends React.Component {
         return (
             <div>
                 <h1>Counter: {this.state.count} </h1>
-                <button onClick={this.add}> Add </button>
+                <button onClick={this.add} className="botaoAdd"> Add </button>
                 {" "}
-                <button onClick={this.remove}> Remove </button>
+                <button onClick={this.remove} className="botaoRem"> Remove </button>
             </div>
         );
     }

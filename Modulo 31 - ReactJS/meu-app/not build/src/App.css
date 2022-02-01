@@ -1,3 +1,7 @@
+* {
+  background-color: rgb(139, 111, 111);
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -42,3 +46,19 @@
   color: #fff;
   font-size: 17px;
 }
+
+.botaoAdd {
+  background-color: rgb(102, 50, 50);
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.botaoRem {
+  background-color: rgb(102, 50, 50);
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+
