@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  background-color: #bdbdd6;
+  background-color: #45454b;
 }
 
 .menu {
@@ -22,6 +22,7 @@
 
 .logo {
   padding-left: 20px;
+  color: #fff;
 }
 
 .about a {
