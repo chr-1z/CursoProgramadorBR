@@ -1,0 +1,64 @@
+* {
+  background-color: rgb(139, 111, 111);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #45454b;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-left: 25px;
+}
+
+.contact {
+  padding-right: 25px;
+}
+
+
+.logo {
+  padding-left: 20px;
+  color: #fff;
+}
+
+.about a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.buy a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+}
+
+.botaoAdd {
+  background-color: rgb(102, 50, 50);
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.botaoRem {
+  background-color: rgb(102, 50, 50);
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+}
+
+
