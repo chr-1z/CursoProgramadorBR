@@ -2,7 +2,7 @@
 
 
 
-###### O que é abordado no curso:
+###### O que é abordado no curso: 
 - HTML (Hypertext Markup Language);
 - CSS (Cascading Style Sheets);
 - JavaScript;
